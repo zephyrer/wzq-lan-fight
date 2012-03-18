@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WZQ", "WZQ\WZQ.vcxproj", "{C49A412B-7C3A-4939-98D4-2102072ED948}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paint", "paint\paint.vcxproj", "{4B670B24-C9F0-464C-B962-346DC71A5C55}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dwmtest", "dwmtest\dwmtest.vcxproj", "{0C2CFD21-39C5-4999-8B2C-04D4E45B23A8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,18 +11,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C2CFD21-39C5-4999-8B2C-04D4E45B23A8}.Debug|Win32.ActiveCfg = Debug|Win32
-		{0C2CFD21-39C5-4999-8B2C-04D4E45B23A8}.Debug|Win32.Build.0 = Debug|Win32
-		{0C2CFD21-39C5-4999-8B2C-04D4E45B23A8}.Debug|x64.ActiveCfg = Debug|Win32
-		{0C2CFD21-39C5-4999-8B2C-04D4E45B23A8}.Release|Win32.ActiveCfg = Release|Win32
-		{0C2CFD21-39C5-4999-8B2C-04D4E45B23A8}.Release|Win32.Build.0 = Release|Win32
-		{0C2CFD21-39C5-4999-8B2C-04D4E45B23A8}.Release|x64.ActiveCfg = Release|Win32
-		{4B670B24-C9F0-464C-B962-346DC71A5C55}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4B670B24-C9F0-464C-B962-346DC71A5C55}.Debug|Win32.Build.0 = Debug|Win32
-		{4B670B24-C9F0-464C-B962-346DC71A5C55}.Debug|x64.ActiveCfg = Debug|Win32
-		{4B670B24-C9F0-464C-B962-346DC71A5C55}.Release|Win32.ActiveCfg = Release|Win32
-		{4B670B24-C9F0-464C-B962-346DC71A5C55}.Release|Win32.Build.0 = Release|Win32
-		{4B670B24-C9F0-464C-B962-346DC71A5C55}.Release|x64.ActiveCfg = Release|Win32
 		{C49A412B-7C3A-4939-98D4-2102072ED948}.Debug|Win32.ActiveCfg = Debug|Win32
 		{C49A412B-7C3A-4939-98D4-2102072ED948}.Debug|Win32.Build.0 = Debug|Win32
 		{C49A412B-7C3A-4939-98D4-2102072ED948}.Debug|x64.ActiveCfg = Debug|x64
