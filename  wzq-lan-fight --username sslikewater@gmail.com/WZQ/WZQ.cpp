@@ -23,7 +23,7 @@ END_MESSAGE_MAP()
 CWZQApp::CWZQApp()
 {
 	// 支持重新启动管理器
-	m_dwRestartManagerSupportFlags = AFX_RESTART_MANAGER_SUPPORT_RESTART;
+	//m_dwRestartManagerSupportFlags = AFX_RESTART_MANAGER_SUPPORT_RESTART;
 
 }
 
@@ -41,9 +41,8 @@ BOOL CWZQApp::InitInstance()
 	AfxSocketInit();
 	CWZQDlg dlg;
 	m_pMainWnd = &dlg;
-	INT_PTR nResponse = dlg.DoModal();
+	dlg.DoModal();
 	Gdiplus::GdiplusShutdown(gdiplusToken);
-	exit(0);
 	return FALSE;
 }
 
